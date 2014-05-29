@@ -1,0 +1,10 @@
+NotLogger (Notification Logger)
+
+A very simple app that will output to logcat the package names of
+the currently active notifications.
+
+Requires android.permission.ACCESS_NOTIFICATIONS which in turn means
+the app must be signed with platform keys and pushed to /system/app/
+
+Included in bin/ is a pre-built apk for CyanogenMod pre-signed with their
+platform keys.
